@@ -28,5 +28,5 @@ inv <- x$getInverse()
   data <- x$get()
   inv <- solve(data)
   x$setInverse(inv)
-  inv      
+  inv     
 }
